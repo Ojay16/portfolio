@@ -1,0 +1,213 @@
+*{
+  box-sizing: border-box;
+}
+.body{
+  margin: 0;
+  background-color: #DBDBDB;
+}
+.navigation{
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+.nav-link{
+  color: white;
+}
+.home{
+  background-color:white;
+  color: black;
+  font-weight: 600;
+}
+.profile-img {
+    border-radius: 50%;
+  }
+  #profile-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+   .projects{
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .projects-header{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: 0; 
+    text-align: center;
+  }
+
+ .projects-card__content{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0 3rem;
+  margin-top: 3rem;
+ }
+.card{
+  min-height: 100%;
+ }
+ .card__content{
+  text-align: center;
+ }
+  @media(min-width:1200px){
+    .projects-card__content{
+      display: flex;
+      flex-direction: row;
+      gap:1.5rem;
+      justify-content: center;
+    }
+
+  }
+  /*-------------------------------------------------CONTACT-------------------------------------------------*/
+  
+  .hero, .about--hero{
+    padding: 10px 0;
+  }
+  .hero__text,.about--hero__text{
+    width: 50%;
+    margin: 0 30px;
+    max-width: 1270px;
+  }
+  .hero__text h1, .about--hero__text h1{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 2;
+    padding: 0;
+    margin:0;
+    
+  }
+.contact__par{
+  color: #757575;
+  font-size: 2rem;
+  line-height: 1.3;
+  padding-left: 5px;
+}
+.social__image{
+  height: 50px;
+
+}
+.social{
+  display: flex;
+  list-style: none;
+  width: 60%;
+  margin: 50px 0;
+  /* justify-content: space-around; */
+  gap: 3rem
+}
+.social__text{
+  list-style-type: none;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap:3rem;
+  margin-left:2rem;
+}
+li{
+  max-width: 100%;
+}
+.twitter{
+
+color: #189ACD;
+}
+.instagram{
+    color: #ef0074;
+}
+.facebook{
+  color: #43609c;}
+.linkedin{
+  color: #0982c0;}
+.social__text a, .card__content a{
+  color:inherit;
+  text-decoration:inherit;
+}
+@media (max-width: 800px) {
+  .social{
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+  }
+}
+@media (max-width: 700px) {
+  .hero__text{
+    width:80%;
+  }
+}
+ 
+
+/*-------------------------------------------------ABOUT-------------------------------------------------*/
+ .about__par{
+  color: #757575;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  padding-left: 5px;
+ }
+ .skills{
+  padding: 10px 0;
+  margin: 0 30px;
+ }
+ .skills__text{
+  width: 100%;
+  margin: 0;
+ }
+.skills__text h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.skills__text ul{
+line-height: 2;
+}
+
+.edu{
+  padding: 10px 0;
+  margin: 0 30px;
+}
+.edu__text{
+  width: 100%;
+  margin: 0;
+}
+.edu__text h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+.edu__text ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+hr{
+  width: 100px;
+  margin: 4rem auto;
+  border-top: 5px dotted black;
+}
+@media (max-width: 700px) {
+  .skills__text ul{
+    width:100%;
+    margin: auto;
+  
+  }
+}
+@media (max-width: 700px) {
+  .skills__text{
+    width:80%;
+  }
+}
+
+@media (max-width:1200px){
+  
+  .about--hero__text{
+    width: 80%;
+  }
+}
