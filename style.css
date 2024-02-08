@@ -23,7 +23,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 50%;
   }
   #profile-heading{
     font-size: 3rem;
@@ -68,7 +68,7 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
+      width: 30%;
     }
 
   }
